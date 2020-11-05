@@ -1,12 +1,38 @@
 .titulo {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  #F0B429;
 }
 
 .menu {
     padding: 20px;
-    background-color: #50B748;
+    background-color: #005883;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    float: center;
 }
+.tablas{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: center;
+    color: #005883;
+}
+stylenav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:3px 3px;
+    text-align:center;
+    color:#fff;
+    }
+    nav li:hover{
+    background-color:#F0B429;
+    color:#000;
+    }
+
+
