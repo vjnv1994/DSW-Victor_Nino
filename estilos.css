@@ -16,23 +16,41 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: center;
     color: #005883;
+    padding: 15px;
 }
-stylenav a{
-    text-decoration:none;
-    color:inherit;
-    font-size:20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    } 
-    nav li{
-    display:inline-block;
-    width:10%;
-    padding:3px 3px;
-    text-align:center;
-    color:#fff;
-    }
-    nav li:hover{
-    background-color:#F0B429;
-    color:#000;
-    }
 
+*{margin:0;padding:0;}  
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+            
+nav li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:0px 0px;
+      background-color:#005883;
+      border:1px solid #005883;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+            
+nav li:hover{
+      background-color:#F0B429;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+      }
 
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}
